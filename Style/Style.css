@@ -1,0 +1,163 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+  background-color: #e9e9e9;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Main content */
+main {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation */
+nav ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #777;
+}
+
+/* About Us section */
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Location section */
+h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: #e9e9e9;
+  padding: 20px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Rose theme */
+body {
+  background-color: #fce4ec;
+}
+
+header,
+main,
+footer {
+  background-color: #fce4ec;
+}
+
+h1,
+h2,
+h4,
+p,
+a {
+  color: #771d1d;
+}
+
+nav a:hover {
+  color: #d81111;
+}
+
+/* Add a soft pink gradient background to the header */
+header {
+  background: linear-gradient(to right, #ffb6c1, #ff8cac);
+}
+
+/* Add a soft pink border to the main content */
+main {
+  border: 5px solid #ff8cac;
+}
+
+/* Add a soft pink border to the navigation links */
+nav a {
+  border-bottom: 2px solid #ff8cac;
+}
+
+/* Add a soft pink background to the "Discord" link */
+main p a {
+  background-color: #ff8cac;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Add a soft pink background to the "About Us" and "Location" headings */
+main h2 {
+  background-color: #ff8cac;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Add a soft pink background to the footer */
+footer {
+  background-color: #ff8cac;
+  color: #fff;
+}
+
+main h3 {
+  background-color: #ff8cac;
+  color: #fff;
+  padding: 10px;
+}
